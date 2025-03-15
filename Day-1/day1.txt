@@ -1,0 +1,90 @@
+
+Day 1 Syllabus
+
+Python Syntax
+• Simple and Readable Code Structure
+• Indentation defines a block of code
+
+Variables
+• No explicit type declaration needed
+• Dynamic assignment (e.g., x = 10)
+
+Data Types
+• Numbers: Integers & floats (e.g., 10, 3.14) • Strings: Text data, string literals (e.g., "Hello")
+• Booleans: True and False
+• List, Tuple, Dictionary, Set
+
+Operators
+• Arithmetic: +, -, *, 1,%
+• Comparison: ==, !=, <, >, etc.
+• Logical: and, or, not
+
+
+## Data Types
+name = "Aashish"
+print(type(name))
+
+age = 25
+print(type(age))
+
+str_age = "25"
+print(type(age))
+print(age)
+
+yes = True
+print (type (yes))
+
+## List
+my_list = [1, 2, 3]
+print(my_list[1])
+
+## Mutable List
+my_list = [1, 2, 3]
+my_list[0] = 5
+print(my_list)
+
+## Tuple (Testing tuple mutability -> throws error)
+# my_tuple = (1, 2, 3)
+# my_tuple [0] •= •1
+
+## Dictionary
+my_dictionary = { 
+    "name": "Aashish",
+    "age": 25
+}
+print(name, age)
+
+## Mutable Dictionary 
+
+mute_dictionary = { 
+    "name": "Aashish",
+    "age": 25
+}
+mute_dictionary[name] = 25
+print(name, age)
+
+
+# f-string or formatted string
+# helps assigning strings with values
+
+year = 2025
+output = f"Hello WOrld {year}"
+print(output)
+
+# taking user input and changing data types
+user_input = input("Enter value: ")
+print(type(user_input))
+user_input = int/user_inputil
+print(type(user_input))
+print(user_input + 1)
+print(user_input)
+
+
+
+user_input = input("Enter value: ")
+print(type(user_input))
+user_input = int(user_input)
+print(type(user_input))
+user_input += 1
+print(user_input)
+print(f"User input is: {user_input}")
