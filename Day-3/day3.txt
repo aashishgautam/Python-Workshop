@@ -1,0 +1,19 @@
+Advanced Function Concepts
+Parameters / Arguments & Return Values:
+• Information can be passed into functions as arguments
+• Positional and keyword arguments.
+• Default parameter values.
+
+argument with default value:
+ 
+def function-name(year=2025, name, "args, kwargs) 
+return name to access: kwargs["key_name"]
+
+function_name ("Prajwol', "2025", 15, 25, value="var")
+
+kwargs: keyword arguments received in form of dict
+args: arbitary arguments received in form of list
+
+to access: args[O] args[1]
+to access: kwargs["key_name"]
+
